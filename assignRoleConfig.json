@@ -1,0 +1,20 @@
+{
+  "url":"http://polaris1.ont.io",
+  "restPort":"20334",
+  "websocketPort":"20335",
+  "rpcPort":"20336",
+  "defaultPort":"restPort",
+  "contractAddress":"0000000000000000000000000000000000000007",
+  "functionName":"registerCandidate",
+  "role":"role1",
+  "gaslimit":20000,
+  "gasprice":0,
+  "wallets":[
+    "adminOntId.dat",
+    "payer.dat"
+  ],
+  "passwords":[
+    "passwordtest",
+    "111111"
+  ]
+}

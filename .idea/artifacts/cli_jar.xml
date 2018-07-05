@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="cli:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cli_jar</output-path>
+    <root id="root">
+      <element id="archive" name="cli.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="cli" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/src/lib/ontology-sdk-java.jar" />
+    </root>
+  </artifact>
+</component>
